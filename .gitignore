@@ -1,0 +1,6 @@
+# Ignore vim swap files:
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+
+Debug/
+Release/

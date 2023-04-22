@@ -1,0 +1,20 @@
+﻿---
+BasedOnStyle: LLVM
+AlignAfterOpenBracket: DontAlign
+AlignConsecutiveMacros: true
+AllowShortBlocksOnASingleLine: true
+AllowShortFunctionsOnASingleLine: Inline
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: true
+  SplitEmptyFunction: false
+ColumnLimit: 78
+IndentCaseLabels: true
+MaxEmptyLinesToKeep: 2
+PointerAlignment: Left
+SortIncludes: false
+SpaceAfterTemplateKeyword: false
+SpaceBeforeCpp11BracedList: true
+UseTab: Never
+
+...

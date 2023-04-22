@@ -1,0 +1,8 @@
+#! /bin/bash
+
+echo "===================================================="
+echo "Running 'clang-format -i' on"
+echo "'${1}'"
+echo "will result in following changes:"
+echo "===================================================="
+diff -u "$1" <(clang-format "$1")
